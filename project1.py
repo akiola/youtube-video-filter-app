@@ -5,7 +5,7 @@ def videoSearch(max_limit, video_duration, search_keyword):
 
     version = 'v3'
     api_service = 'youtube'
-    api_key = 'AIzaSyA19Pf8pttQKAbebSgH5EVLiLXjYj8-sYo'
+    api_key = 'Enter your api key'
     
     final_video_data = {}
 
