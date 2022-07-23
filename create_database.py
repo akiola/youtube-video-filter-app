@@ -5,13 +5,9 @@ import pandas as pd
 def create_database(limit, duration, key):
 
     dataframe = c.convert_data_to_dataframe(3, 'short', "hello")
-
     engine = db.create_engine('sqlite:///youtube_search_results.db')
-
-    dataframe.to_sql('table_name', con=engine, if_exists='replace', index=False)
-
-    query_result = engine.execute("SELECT * FROM table_name;").fetchall()
-    
+    dataframe.to_sql('video_database', con=engine, if_exists='replace', index=False)
+    query_result = engine.execute("SELECT * FROM video_database;").fetchall()
     return query_result
 
 

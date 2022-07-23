@@ -46,11 +46,4 @@ def convert_data_to_dataframe(limit, duration, key):
 
 
 
-'''search_keyword = input("Enter the search keyword: ")
-max_limit = int(input("Enter the maximum search results: "))
-video_duration = input("Enter long for lengthy videos or short for shorter videos: ")'''
-
-#print(convert_data_to_dataframe(max_limit, video_duration, search_keyword))
-        
-        
 
